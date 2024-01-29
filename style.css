@@ -1,0 +1,9 @@
+body {
+    background: rgb(255, 243, 207);
+    background: linear-gradient(90deg, rgba(255, 243, 207, 1) 21%, rgba(201, 215, 221, 1) 85%);
+    color: #637A9F;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
