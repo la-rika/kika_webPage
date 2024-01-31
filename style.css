@@ -8,28 +8,26 @@ body {
     padding: 13px 50px !important;
 }
 
-.nav-container{
+.nav-container,
+.nav-container ul {
     display: flex !important;
     justify-content: space-between;
 }
 
-.nav-container ul{
-    display: flex !important;
-    align-items: center;
-}
-
-.nav-links{
-    justify-content: space-between;
-    width: 188px;
-}
-
-.nav-item a, .nav-item a:hover,.nav-item a:visited,.nav-item a:active{
-    text-decoration: none;
-    color: #637A9F;
-}
-
-.nav-title{
+.nav-title {
     font-size: 23px !important;
     font-weight: 800 !important;
 }
 
+.nav-item a,
+.nav-item a:hover,
+.nav-item a:visited,
+.nav-item a:active {
+    text-decoration: none;
+    color: #637A9F;
+}
+
+.nav-links {
+    justify-content: space-between;
+    width: 188px;
+}
