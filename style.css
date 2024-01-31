@@ -5,7 +5,7 @@ body {
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     margin: 0;
-    padding: 13px 50px !important;
+    padding: 18px 72px !important;
 }
 
 .nav-container,
@@ -19,13 +19,29 @@ body {
     font-weight: 800 !important;
 }
 
-.nav-item a,
-.nav-item a:hover,
-.nav-item a:visited,
-.nav-item a:active {
+.underline{
+    height: 1px;
+    width: 0px;
+    background-color: #637A9F;
+}
+
+.fixed-underline{
+    height: 1px;
+    width: 100%;
+    background-color: #637A9F;
+}
+
+.nav-item a,.nav-item a:visited {
     text-decoration: none;
     color: #637A9F;
+    padding: 0;
 }
+
+.nav-item a:hover + .underline{
+    width: 100%;
+    transition: width 0.3s;
+}
+
 
 .nav-links {
     justify-content: space-between;
