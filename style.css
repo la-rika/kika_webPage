@@ -48,35 +48,10 @@ body {
     width: 188px;
 }
 
-.images-container{
-    margin-top: 55px !important;
-}
-
-.folder-image{
-    width: 545px;
-    height: 545px;
-}
-
-.folder-title{
-    font-weight: 800;
-}
-
-.folder-title:hover{
-    opacity: 0%;
-    transition: opacity 0.5s;
-    cursor: pointer;
-}
-
-.folder-title, .folder-title:visited, .folder-title:active{
-    position: absolute;
-    text-decoration: none;
-    top: 375px;
-    color: white;
-}
-
 .credits{
     color: #637A9F;
     margin: 0;
     font-size: 12px;
-    margin: 25px 0px;
+    position: absolute;
+    bottom: 18px;
 }
