@@ -6,6 +6,7 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding: 18px 72px !important;
+    height: 100vh;
 }
 
 .nav-container,
@@ -42,10 +43,26 @@ body {
     transition: width 0.3s;
 }
 
-
 .nav-links {
     justify-content: space-between;
     width: 188px;
+}
+
+.homepage-container{
+    height: 91%;
+}
+
+.folder-container:nth-child(1){
+    padding-right: 50px;
+}
+
+.folder-container:nth-child(2){
+    padding-left: 50px;
+}
+
+.folder-img{
+    width: 580px;
+    height: 580px;
 }
 
 .credits{
